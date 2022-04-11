@@ -5,8 +5,8 @@
   <parent>
     <groupId>net.sf.ehcache</groupId>
     <artifactId>ehcache-root</artifactId>
-    <version>2.11.0-BUILD-QUADIENT-7</version>
-    <relativePath>..</relativePath>
+    <version>2.11.0-BUILD-QUADIENT-10</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>ehcache</artifactId>
