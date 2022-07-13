@@ -11,7 +11,7 @@
     <artifactId>ehcache-thirdparty-bom</artifactId>
 
     <groupId>net.sf.ehcache</groupId>
-    <version>2.11.0-BUILD-QUADIENT-10</version>
+    <version>1.0-BUILD-QUADIENT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -906,5 +906,23 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>dev-azure-com-storeit-interactive-artifactory</id>
+            <url>https://pkgs.dev.azure.com/storeit/_packaging/interactive-artifactory/maven/v1</url>
+        </snapshotRepository>
+        <repository>
+            <id>dev-azure-com-storeit-interactive-artifactory</id>
+            <url>https://pkgs.dev.azure.com/storeit/_packaging/interactive-artifactory/maven/v1</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>terracotta-releases</id>
+            <url>https://repo.terracotta.org/maven2</url>
+        </repository>
+    </repositories>
 
 </project>
