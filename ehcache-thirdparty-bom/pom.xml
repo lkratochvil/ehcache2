@@ -11,12 +11,12 @@
     <artifactId>ehcache-thirdparty-bom</artifactId>
 
     <groupId>net.sf.ehcache</groupId>
-    <version>1.1-BUILD-QUADIENT</version>
+    <version>1.2-BUILD-QUADIENT</version>
     <packaging>pom</packaging>
 
     <properties>
         <!-- keep jetty.version in sync with security-parent/management-apps -->
-        <jetty.version>11.0.11</jetty.version>
+        <jetty.version>11.0.15</jetty.version>
         <jackson.version>2.13.2</jackson.version>
         <jackson-databind.version>2.13.4.2</jackson-databind.version>
         <jersey.version>2.35</jersey.version>
